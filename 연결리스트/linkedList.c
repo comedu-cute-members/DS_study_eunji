@@ -19,7 +19,6 @@ linkedNode NewNode(int value) {
 typedef struct LinkedList {
 	linkedNode* head;
 	linkedNode* tail;
-	linkedNode* prev;
 } linkedList;
 
 linkedList create() {
